@@ -1,4 +1,4 @@
-##Welcome to JessicaKamman's homepage!
+## Welcome to JessicaKamman's homepage!
 Showcase Jessica Kamman Work
 
 You can use the [editor on GitHub](https://github.com/JessicaKamman/username.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
