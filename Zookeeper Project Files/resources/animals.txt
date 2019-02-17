@@ -1,0 +1,7 @@
+
+Animal - Bear
+Name: Bob
+Age: 12
+Health concerns: None
+Feeding schedule: Daily
+Sickness: Flu/0/1/11-02-2019/14-02-2019 Cough/0/1/11-01-2019/18-01-2019
