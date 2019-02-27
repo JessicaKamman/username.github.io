@@ -1,0 +1,114 @@
+person
+message
+image
+message_image
+contact_list
+
+likes
+-------------------------
+
+Find All of the Messages that Micheal Phelps Sent
+Find the Number of Messages Sent for Every Person
+Find All of the Messages that Have At Least One Image Attached 
+
+Find all the persons that liked a given message with an image
+Find all the persons that liked a given message that are contacts of the poster
+
+//creating image table
+CREATE TABLE image(
+	image_id INT(8) NOT NULL auto_increment,
+	image_name VARCHAR(50) NOT NULL, 
+	image_location VARCHAR(50) NOT NULL, 
+	PRIMARY KEY(image_id)
+	) AUTO_INCREMENT = 1;
+	
+//creating person table
+CREATE TABLE person(
+	person_id INT(8) NOT NULL auto_increment, 
+	first_name VARCHAR(25) NOT NULL, 
+	last_name VARCHAR(25) NOT NULL, 
+	address VARCHAR(100) NOT NULL, 
+	PRIMARY KEY(person_id)
+	) AUTO_INCREMENT = 1;
+	
+//creating contact list
+//modification of Primary Key to ensure there is not a name entered more then once
+CREATE TABLE contact_list(
+	connection_id INT(8) NOT NULL auto_increment,
+	person_id INT(8) NOT NULL,
+	contact_id INT(8) NOT NULL, 
+	favorite VARCHAR(25) NOT NULL, 
+	PRIMARY KEY(connection_id,person_id,contact_id)
+	) AUTO_INCREMENT = 1;
+	
+//create table for message image
+//modification added message_image_id
+CREATE TABLE message_image(
+	message_image_id INT(8) NOT NULL auto_increment,
+	message_id INT(8) NOT NULL, 
+	image_id INT(8) NOT NULL, 
+	PRIMARY KEY(message_id,image_id,message_image_id)
+	) AUTO_INCREMENT = 1;
+	
+//create table for message
+CREATE TABLE message(
+	message_id INT(8) NOT NULL auto_increment, 
+	sender_id INT(8) NOT NULL, 
+	receiver_id INT(8) NOT NULL, 
+	message VARCHAR(100) NOT NULL, 
+	send_datetime DATETIME NOT NULL, 
+	PRIMARY KEY(message_id)
+	) AUTO_INCREMENT=1;
+
+//create Likes table
+//Modifaction: Adding new Like table
+CREATE TABLE likes(
+	like_id INT(8) NOT NULL auto_increment, 
+	person_id INT(8) NOT NULL, 
+	message_id INT(8) NOT NULL, 
+	PRIMARY KEY(person_id, message_id),
+	) AUTO_INCREMENT= 1;
+	
+//Find all Messages 
+SELECT s.first_name AS "Sender's First Name", s.last_name AS "Sender's Last Name", r.first_name AS "Receiver's First Name", r.last_name AS "Receiver's Last Name", m.message_id  AS "Message ID", m.message AS "Message", M.send_datetime AS "Message Timestamp"
+	FROM message m 
+	INNER JOIN PERSON s ON
+	s.person_id = sender_id
+	INNER JOIN person r ON
+	r.person_id = receiver_id
+	WHERE 
+	s.first_name = "Micheal"
+	AND s.last_name= 'Phelps'
+	AND m.sender_id = 1;
+	
+//Find the Number of Messages SEnt for Every Person 
+//code shows number of messages sent for every person
+//modification: Updated variable name for tables
+SELECT COUNT(message.message_id) AS "Count of Messages", message.person_id AS "Sender ID", person.first_name AS "Sender First Name", person.last_name AS "Sender Last Name" FROM person, message  WHERE person.person_id= message.sender_id GROUP BY message.sender_id;
+ 
+//Find All of the Messages that Have AT Least One Image Attached Using Inner Joins
+SELECT m.message_id AS "Message ID", m.message AS "Message", m.send_datetime AS "Message Timestamp", i.image_name AS "First Image Name", i.image_location AS "First Image Location" FROM message m INNER JOIN message_image mi ON mi.message_id= m.message_id INNER JOIN image i ON i.image_id= mi.image_id GROUP BY m.message_id;
+	
+//Modifcation: Find all the persons that liked a  given message 
+//Joining person and message table for sender id and person id
+//Joining Likes Table 
+SELECT message.message_id AS "Message ID",m.message AS "Message", person.person_id AS "Person Liking", person.first_name AS "First Name of Liker", person.last_name AS "Last Name of Liker" 
+FROM person 
+INNER JOIN message 
+ON message.receiver_id= person.person_id
+INNER JOIN likes
+ON person.person_id= likes.person_id;
+
+
+//Find all the persons that liked a given message that are contacts of the poster
+//Modification
+SELECT message.message_id AS "Message ID",m.message AS "Message", person.person_id AS "Person Liking", person.first_name AS "First Name of Liker", person.last_name AS "Last Name of Liker" 
+FROM person 
+INNER JOIN message 
+ON message.receiver_id= person.person_id
+INNER JOIN likes
+ON person.person_id= likes.person_id
+INNER JOIN contact_list
+ON contact_list.person_id=message.sender_id AND contact_list.person_id= message.receiver_id;
+	
+	
