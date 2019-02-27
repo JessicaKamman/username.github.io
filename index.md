@@ -1,10 +1,24 @@
-Showcase Jessica Kamman Work
+## Showcase Jessica Kamman Work and Self Reflection 
+During my tenure at Southern New Hampshire Univeristy I learned all basic coding Practices including Object Oriented Design, Algorithm and Data Structues and the use of Database. I also learned the use the follwing programming languages: 
+* Java
+* C++
+* SQL
+* MongoDB
+* Phyton
+* HTML
 
-You can use the [editor on GitHub](https://github.com/JessicaKamman/username.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+At the end of my tenure at SNHU I had to take my Capstone course where I was tasked in modifying my own projects with additonal enhancements. The enhancement showed my ability to think about the projects in a general term in order to figure out what a client might want in updates. During this class I showcased that I can come up with updates for a project by looking at the code. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Projects Enhencemnts for Capstone Coding Class 
+1. Software Design and Engineering 
+2. Algorithms and Data Structures
+3. Data Bases
+
+Within these three categories I have chosen one project and made a few enhancements and updated the project to follow best coding practices, Object Oriented Design and made the project more effcient. 
+## Software Design and Engineering- Hashtable 
+
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
