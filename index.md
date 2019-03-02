@@ -16,8 +16,24 @@ At the end of my tenure at SNHU I had to take my Capstone course where I was tas
 3. Data Bases
 
 Within these three categories I have chosen one project and made a few enhancements and updated the project to follow best coding practices, Object Oriented Design and made the project more effcient. 
+```
 ## Software Design and Engineering- Hashtable 
+* This project showcases my proficency with C++ and advanced Algorthims and Data Sets
+* The modifications made for this project includes: 
+        1. Changing Modular 10 to Modular 100
+        2. Added GetKey to retrieve and provide a key
+        3. Added Search functionality for fund
+* Within this project I showed that I am able to look at a existing project and enhance it with C++ and higher Advance Algorthims programming language
+```
 
+```
+###Algorithms and Data Structure
+* This project showcased my ability to change a full program from a non Object Oriented Design code to follow Object Oriented Design and best coding practices. 
+* This project also shows my strength in making a program more efficent
+* The modifactions made for this project include: 
+      1.Updated code to follow Object Oriented Design by breaking down code into Methods
+      2. Added the ability to add to memory 
+      3. 
 
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
