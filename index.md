@@ -15,7 +15,8 @@ At the end of my tenure at SNHU I had to take my Capstone course where I was tas
 2. Algorithms and Data Structures
 3. Data Bases
 
-Within these three categories I have chosen one project and made a few enhancements and updated the project to follow best coding practices, Object Oriented Design and made the project more effcient. 
+Within these three categories I have chosen one project and made a few enhancements and updated the 
+project to follow best coding practices, Object Oriented Design and made the project more effcient. 
 ```
 ## Software Design and Engineering- Hashtable 
 * This project showcases my proficency with C++ and advanced Algorthims and Data Sets
@@ -23,45 +24,39 @@ Within these three categories I have chosen one project and made a few enhanceme
         1. Changing Modular 10 to Modular 100
         2. Added GetKey to retrieve and provide a key
         3. Added Search functionality for fund
-* Within this project I showed that I am able to look at a existing project and enhance it with C++ and higher Advance Algorthims programming language
+* Within this project I showed that I am able to look at a existing project and 
+        enhance it with C++ and higher Advance Algorthims programming language
+        
+
 ```
 
 ```
 ###Algorithms and Data Structure
-* This project showcased my ability to change a full program from a non Object Oriented Design code to follow Object Oriented Design and best coding practices. 
+* This project showcased my ability to change a full program from a non Object Oriented Design code to 
+follow Object Oriented Design and best coding practices. 
 * This project also shows my strength in making a program more efficent
 * The modifactions made for this project include: 
       1.Updated code to follow Object Oriented Design by breaking down code into Methods
       2. Added the ability to add to memory 
-      3. 
+      3. Added a Sickness Functionality that keeps track of Illness for animals. 
+      
+      ```
+      
+  * The project also showcases my use with Java and my ability to use existing code and make necessary enhancements accordingly. 
 
+```
+
+```
+###Databases 
+* The database project showcases my ability to work with mySQL to build a database and make necessary 
+        enhancements in order to build out the database and functionality. 
+* This project showcases adding more advanced mySQL code and the use of Inner Joins
+* the modifications made for this project include: 
+        1. Proving all codes for all tables within this dataset
+        2. Added the like table to the database
+        3. Added how many likes are per message and what contacts liked a message
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JessicaKamman/username.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
