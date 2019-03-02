@@ -21,7 +21,7 @@ Before I decided to go back to school to attain my Bachelor Degree in Computer S
 
 Within these three categories I have chosen one project and made a few enhancements and updated the 
 project to follow best coding practices, Object Oriented Design and made the project more effcient. 
-```
+
 ## Software Design and Engineering- Hashtable 
 This project was created in Algorithm and Data Structure CS 260 Class. This class focused on utilizing C++ to 
 learn more advanced common strucutes for maintaining data, and algorithms to sort and amanipulate the data within. 
@@ -35,11 +35,7 @@ and the other programming languages such as Java.
 * Within this project I showed that I am able to look at a existing project and 
         enhance it with C++ and higher Advance Algorthims programming language
         
-
-```
-
-```
-###Algorithms and Data Structure
+### Algorithms and Data Structure
 This project was created during IT 145 Foundations of Application Development. 
 This class heavily relies in the use Java programming, and I learned the basic programming 
 principles in this class. This was one of my first classes that taught me Java, and 
@@ -58,10 +54,7 @@ follow Object Oriented Design and best coding practices.
   * The project also showcases my use with Java and my ability to use existing code and make 
   necessary enhancements accordingly. 
 
-```
-
-```
-###Databases 
+### Databases 
 This project was created during my first Database Class at SNHU, DAD 220 Introduction through SQL. 
 During this course I was introduced to the basic queries that are done with mySQL. The class went 
 into detail in creating databases, tables, deleting and joining tables. This class gave me 
