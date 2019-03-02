@@ -1,4 +1,4 @@
-## Showcase Jessica Kamman Work and Self Reflection 
+## Showcase Jessica Kamman Work, Self Reflection and Work History 
 During my tenure at Southern New Hampshire Univeristy I learned all basic coding Practices including Object Oriented Design, Algorithm and Data Structues and the use of Database. I also learned the use the follwing programming languages: 
 * Java
 * C++
@@ -7,7 +7,10 @@ During my tenure at Southern New Hampshire Univeristy I learned all basic coding
 * Phyton
 * HTML
 
-At the end of my tenure at SNHU I had to take my Capstone course where I was tasked in modifying my own projects with additonal enhancements. The enhancement showed my ability to think about the projects in a general term in order to figure out what a client might want in updates. During this class I showcased that I can come up with updates for a project by looking at the code. 
+At the end of my tenure at SNHU I had to take my Capstone course where I was tasked in modifying my own projects with additonal enhancements. The enhancement showed my ability to think about the projects in a general term in order to figure out what a client might want in updates. During this class I was challenged to look at all of my projects through my tenure at SNHU and pick out the courses that most showcase my programming knowledge. With the enhancements and projects I have chosen I showed my knowledge on taking a project and strateglly thing of possible changes the project will need. I also showcased that I can take a older project with less effcient code, and change the code effciently to make the project run more effciently. My source code can be found at 
+
+
+Before I decided to go back to school to attain my Bachelor Degree in Computer Science I worked in the Finance field with a Bachelors Degree in Mathematics and Economics. During my finance tenure I have worked with many different talents, and personalities that made me very versatile to work with any type of team.
 
 
 ### Projects Enhencemnts for Capstone Coding Class 
@@ -19,6 +22,7 @@ Within these three categories I have chosen one project and made a few enhanceme
 project to follow best coding practices, Object Oriented Design and made the project more effcient. 
 ```
 ## Software Design and Engineering- Hashtable 
+This project was created in Algorithm and Data Structure CS 260 Class. This class focused on utilizing C++ to learn more advanced common strucutes for maintaining data, and algorithms to sort and amanipulate the data within. During this class I was exposed to C++ for the first time, but I soon understood the similarities between C++ and the other programming languages such as Java. 
 * This project showcases my proficency with C++ and advanced Algorthims and Data Sets
 * The modifications made for this project includes: 
         1. Changing Modular 10 to Modular 100
@@ -32,6 +36,7 @@ project to follow best coding practices, Object Oriented Design and made the pro
 
 ```
 ###Algorithms and Data Structure
+This project was created during IT 145 Foundations of Application Development. This class heavily relies in the use Java programming, and I learned the basic programming principles in this class. This was one of my first classes that taught me Java, and througout this course I learned coding concepts such as the use of an Array. This class laid the ground foundation for my Software Engineering career. I have learned from taking this class that I have found my preferred language. During my tenure at SNHU I also learned the use of C++, Phyton and mySQL in detail.
 * This project showcased my ability to change a full program from a non Object Oriented Design code to 
 follow Object Oriented Design and best coding practices. 
 * This project also shows my strength in making a program more efficent
@@ -48,6 +53,7 @@ follow Object Oriented Design and best coding practices.
 
 ```
 ###Databases 
+This project was created during my first Database Class at SNHU, DAD 220 Introduction through SQL. During this course I was introduced to the basic queries that are done with mySQL. The class went into detail in creating databases, tables, deleting and joining tables. This class gave me foundation for creating a database and running basic queries on a dataset. I also learned my appreciation of this language, and that I like working with datasets. From this class, I decided to minor in Data Analytics to give me a high level insight on how Data behaves. During the classes that I took through my Data Analytics minor, I also learned the use of SAS, Tableau, JMP, and QlikView. 
 * The database project showcases my ability to work with mySQL to build a database and make necessary 
         enhancements in order to build out the database and functionality. 
 * This project showcases adding more advanced mySQL code and the use of Inner Joins
