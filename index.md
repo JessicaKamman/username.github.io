@@ -8,7 +8,7 @@ During my tenure at Southern New Hampshire Univeristy, I learned all of the basi
 * HTML
 
 At the end of my tenure at SNHU, I had to take my capstone course where I was tasked in modifying my own projects with additonal enhancements. The enhancement showed my ability to think about the projects in a general term, in order to figure out what a client might want in updates. During this class, I was challenged to look at all of my projects through my tenure at SNHU, and pick out the courses that most showcase my programming knowledge. With the enhancements and projects I have chosen, I showed my knowledge on taking a project and strategically thinking of possible changes the project will need. I also showcased that I can take an older project with less effcient code, and change the code efficiently to make the project run more smoothly. My source code can be found at:
-<a href="https://github.com/JessicaKamman/username.github.io">username.github.io</a>
+[GhitHub Pages](https://github.com/JessicaKamman/username.github.io)
 
 
 Before I decided to go back to school to attain my Bachelor's degree in Computer Science, I worked in the finance field with a Bachelor's degree in Mathematics and Economics. During my finance tenure, I have worked with many different talents and personalities, that made me very versatile to work with any type of team.
